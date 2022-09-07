@@ -40,18 +40,21 @@ func main() {
 	}
 	// If no error was returned, print the returned map of
 	// messages to the console.
-	fmt.Println(messages)
+	fmt.Println("Messages:")
+	for _, message := range messages {
+		fmt.Printf("➡️  %v\n", message)
+	}
 
 	// Request a greeting message, with an empty name.
-	message, err = greetings.Hello("")
+		// message, err = greetings.Hello("")
 
 	// This will generate an error!
 	// Print it to the console and exit the program.
-	if err != nil {
-		log.Fatal(err)
-	}
+		// if err != nil {
+		// 	log.Fatal(err)
+		// }
 
 	// If no error was returned, print the returned message
 	// to the console. -- this code will never execute!
-	fmt.Println(message)
+		// fmt.Println(message)
 }

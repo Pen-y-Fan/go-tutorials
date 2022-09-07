@@ -35,10 +35,27 @@ Output:
 ```text
 Hello, World!
 Don't communicate by sharing memory, share memory by communicating.
-Hi, Gladys. Welcome!
-or Great to see you, Gladys!
-or Hail, Gladys! Well met!
-map[Darrin:Hail, Darrin! Well met! Gladys:Hail, Gladys! Well met! Samantha:Hi, Samantha. Welcome!]
-greetings: empty name
-exit status 1
+Great to see you, Gladys!
+Messages:
+➡️  Hail, Gladys! Well met!
+➡️  Hail, Samantha! Well met!
+➡️  Hi, Darrin. Welcome!
 ```
+
+To build an executable to your `GOBIN` executable directory (should be set in PATH)
+
+```sh
+# Check the project will build:
+go build
+hello.exe
+# check if GOBIN is already set:
+go env | grep GOBIN
+# if GOBIN isn't set, it can be set:
+go env -w GOBIN=C:\path\to\your\bin
+# e.g.:
+# go env -w GOBIN=C:\laragon\usr\bin
+# Install the executable hello.exe
+go install
+```
+
+The `hello.exe` will be executable from the directory set in GOBIN

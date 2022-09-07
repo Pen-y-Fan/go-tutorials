@@ -12,7 +12,7 @@ This tutorial's sequence includes seven brief topics that each illustrate a diff
 4. [x] Return a random greeting -- Handle data in slices (Go's dynamically-sized arrays).
 5. [x] Return greetings for multiple people -- Store key/value pairs in a map.
 6. [x] Add a test -- Use Go's built-in unit testing features to test your code.
-7. [ ] Compile and install the application -- Compile and install your code locally.
+7. [x] Compile and install the application -- Compile and install your code locally.
 
 ## Test
 
@@ -23,13 +23,17 @@ cd greetings
 go test -v
 ```
 
-You will see teh verbose output (-v is optional)
+You will see the verbose output (-v is optional)
 
 ```text
 === RUN   TestHelloName
 --- PASS: TestHelloName (0.00s)
 === RUN   TestHelloEmpty
 --- PASS: TestHelloEmpty (0.00s)
+=== RUN   TestHellosNames
+--- PASS: TestHellosNames (0.00s)
+=== RUN   TestHellosEmpty
+--- PASS: TestHellosEmpty (0.00s)
 PASS
-ok      example.com/greetings   0.201s
+ok      example.com/greetings   0.205s
 ```
