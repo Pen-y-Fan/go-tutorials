@@ -36,6 +36,8 @@ Output:
 Hello, World!
 Don't communicate by sharing memory, share memory by communicating.
 Hi, Gladys. Welcome!
+or Great to see you, Gladys!
+or Hail, Gladys! Well met!
 greetings: empty name
 exit status 1
 ```
