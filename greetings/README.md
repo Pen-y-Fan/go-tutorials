@@ -11,37 +11,25 @@ This tutorial's sequence includes seven brief topics that each illustrate a diff
 3. [x] Return and handle an error -- Add simple error handling.
 4. [x] Return a random greeting -- Handle data in slices (Go's dynamically-sized arrays).
 5. [x] Return greetings for multiple people -- Store key/value pairs in a map.
-6. [ ] Add a test -- Use Go's built-in unit testing features to test your code.
+6. [x] Add a test -- Use Go's built-in unit testing features to test your code.
 7. [ ] Compile and install the application -- Compile and install your code locally.
 
-<!--
-## Installation
+## Test
 
-Install the modules:
-
-```sh
-go mod tidy
-```
-
-Output:
+To run the test
 
 ```sh
-go: finding module for package rsc.io/quote
-go: found rsc.io/quote in rsc.io/quote v1.5.2
+cd greetings
+go test -v
 ```
 
-## Run
+You will see teh verbose output (-v is optional)
 
-Run the hello.go program
-
-```sh
-go run .
+```text
+=== RUN   TestHelloName
+--- PASS: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+PASS
+ok      example.com/greetings   0.201s
 ```
-
-Output:
-
-```sh
-Hello, World!
-Don't communicate by sharing memory, share memory by communicating.
-```
--->
