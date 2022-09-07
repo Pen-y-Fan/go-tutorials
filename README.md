@@ -35,3 +35,7 @@ cd hello
 ```
 
 Follow the **README.md** in **hello** directory.
+
+## Create a Go module
+
+Source: [Tutorial: Create a Go module](https://go.dev/doc/tutorial/create-module)

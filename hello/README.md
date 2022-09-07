@@ -19,6 +19,7 @@ Output:
 ```sh
 go: finding module for package rsc.io/quote
 go: found rsc.io/quote in rsc.io/quote v1.5.2
+go: found example.com/greetings in example.com/greetings v0.0.0-00010101000000-000000000000
 ```
 
 ## Run
@@ -31,7 +32,8 @@ go run .
 
 Output:
 
-```sh
+```text
 Hello, World!
 Don't communicate by sharing memory, share memory by communicating.
+Hi, Gladys. Welcome!
 ```
