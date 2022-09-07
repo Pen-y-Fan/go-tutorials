@@ -30,10 +30,22 @@ func main() {
 	// to the console.
 	fmt.Println(message)
 
+	// A slice of names.
+	names := []string{"Gladys", "Samantha", "Darrin"}
+
+	// Request greeting messages for the names.
+	messages, err := greetings.Hellos(names)
+	if err != nil {
+		log.Fatal(err)
+	}
+	// If no error was returned, print the returned map of
+	// messages to the console.
+	fmt.Println(messages)
+
 	// Request a greeting message, with an empty name.
 	message, err = greetings.Hello("")
-	
-	// This will generate an error! 
+
+	// This will generate an error!
 	// Print it to the console and exit the program.
 	if err != nil {
 		log.Fatal(err)

@@ -38,6 +38,7 @@ Don't communicate by sharing memory, share memory by communicating.
 Hi, Gladys. Welcome!
 or Great to see you, Gladys!
 or Hail, Gladys! Well met!
+map[Darrin:Hail, Darrin! Well met! Gladys:Hail, Gladys! Well met! Samantha:Hi, Samantha. Welcome!]
 greetings: empty name
 exit status 1
 ```
