@@ -8,7 +8,7 @@ This tutorial's sequence includes seven brief topics that each illustrate a diff
 
 1. [x] Create a module -- Write a small module with functions you can call from another module.
 2. [x] Call your code from another module -- Import and use your new module.
-3. [ ] Return and handle an error -- Add simple error handling.
+3. [x] Return and handle an error -- Add simple error handling.
 4. [ ] Return a random greeting -- Handle data in slices (Go's dynamically-sized arrays).
 5. [ ] Return greetings for multiple people -- Store key/value pairs in a map.
 6. [ ] Add a test -- Use Go's built-in unit testing features to test your code.
